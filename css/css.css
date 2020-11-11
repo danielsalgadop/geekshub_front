@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+body {
+    font-family: Roboto;
+}
+header{
+    background-color: aqua;
+    opacity: 50%;
+}
+
+
+/* posible color palete
+--khaki-x-11-light-khaki: #ddd78dff;
+--gold-crayola: #dcbf85ff;
+--rose-taupe: #8b635cff;
+--umber: #60594dff;
+--morning-blue: #93a29bff;
+*/
