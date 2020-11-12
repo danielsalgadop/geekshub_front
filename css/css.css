@@ -43,8 +43,9 @@ body {
 }
 
 nav li {
+  list-style: none;
   float: left;
-  margin-left: 2px;
+  margin-left: 1px;
 }
 nav li a {
   color: #0b86cb;
