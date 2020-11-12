@@ -14,8 +14,6 @@ body {
     font-family: Roboto;
 }
 header{
-    background-color: aqua;
-    opacity: 50%;
 }
 
 
@@ -42,4 +40,24 @@ body {
 	background-position: top center, 1px 1px, 0px 0px, top center;
 	
 	bottom: 0;
+}
+
+nav li {
+  float: left;
+  margin-left: 2px;
+}
+nav li a {
+  color: #0b86cb;
+  font-size: 16px;
+  background-color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+nav li a.active,
+nav li a:hover {
+  background-color: #0b86cb;
+  color: white
 }
