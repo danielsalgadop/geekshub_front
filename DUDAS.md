@@ -1,0 +1,1 @@
+las etiquetas <strong> o <del> ¿hay que quitarlas? o se mantienen por que aportan semántica
