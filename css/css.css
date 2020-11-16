@@ -38,8 +38,6 @@ body > header {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 8%, rgba(0,212,255,1) 100%); 
   padding: 3%;
   /* text-align: center; */
-  background: #1abc9c;
-  color: white;
   /* font-size: 30px; */
 /*	background: -webkit-radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
 	background: -moz-radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
@@ -93,12 +91,18 @@ body > main {
 
 p.presentation::first-letter{
   font-size: 550%;
-  font-variant-caps: petite-caps;
   font-family: Bastille;
 }
+
+p.presentation strong > span{
+  background-color: turquoise;
+    font-variant:small-caps;
+}
+
 span.penguin{
   font-family: Penguin;
   font-size: 310%;
+  font-variant:small-caps;
 
 }
 
@@ -110,4 +114,36 @@ span.led{
 .speed-icon::after{
   content:url('../img/icon/speed.svg');
   background-size: 30px 20px;
+}
+.red{
+  color:red;
+}
+.blue{
+  color:blue;
+}
+.purple{
+  color:purple;
+}
+.springgreen{
+  color:springgreen
+}
+.darkorange{
+  color:darkorange;
+}
+.yellow{
+  color:yellow;
+}
+.multicolor{
+  background: rgb(0,187,255);
+  background: linear-gradient(90deg, rgba(0,187,255,1) 0%, rgba(0,255,57,1) 5%, rgba(8,97,72,1) 11%, rgba(8,7,150,1) 15%, rgba(7,49,147,1) 22%, rgba(255,254,3,1) 31%, rgba(232,122,223,1) 42%, rgba(215,144,231,1) 47%, rgba(180,233,149,1) 53%, rgba(0,91,255,1) 69%, rgba(0,212,255,1) 100%);
+}
+main article {
+  background-color: teal;
+  border-radius: 81px 81px 200px 0px;
+-moz-border-radius: 81px 81px 200px 0px;
+-webkit-border-radius: 81px 81px 200px 0px;
+border: 0px solid #000000;
+-webkit-box-shadow: 17px 10px 41px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 10px 41px 0px rgba(0,0,0,0.75);
+box-shadow: 17px 10px 41px 0px rgba(0,0,0,0.75);
 }
