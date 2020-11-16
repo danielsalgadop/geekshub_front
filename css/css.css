@@ -27,7 +27,9 @@
 body {
     font-family: Roboto;
 }
-header{
+
+.strike{
+  text-decoration: line-through;
 }
 
 /* @media (min-width: 500px) {body { background-color: red;}}  */
