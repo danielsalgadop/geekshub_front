@@ -10,6 +10,20 @@
     font-family: Roboto;
     src: url(../fonts/Roboto-Regular.ttf);
 }
+@font-face {
+  font-family: Bastille;
+  src: url(../fonts/Bastille-Vredeburg-Demo.ttf);
+}
+@font-face {
+  font-family: Penguin;
+  src: url(../fonts/Penguin-Regular.ttf);
+}
+@font-face {
+  font-family: Led;
+  src: url(../fonts/The\ Led\ Display\ St.ttf);
+}
+
+
 body {
     font-family: Roboto;
 }
@@ -61,4 +75,30 @@ nav li a.active,
 nav li a:hover {
   background-color: #0b86cb;
   color: white
+}
+
+body > main {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+p.presentation::first-letter{
+  font-size: 550%;
+  font-variant-caps: petite-caps;
+  font-family: Bastille;
+}
+span.penguin{
+  font-family: Penguin;
+  font-size: 310%;
+
+}
+
+span.led{
+  font-family: Led;
+  font-size: 310%;
+}
+
+.speed-icon::after{
+  content:url('../img/icon/speed.svg');
+  background-size: 30px 20px;
 }
