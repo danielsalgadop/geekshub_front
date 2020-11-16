@@ -31,7 +31,6 @@ body {
 .strike{
   text-decoration: line-through;
 }
-
 /* @media (min-width: 500px) {body { background-color: red;}}  */
 
 body > header {
@@ -49,6 +48,7 @@ body > header {
 	background-position: 1px 1px, 0px 0px, center center;
 	
 	top: 0;
+*/
 }
 
 body {
