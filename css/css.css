@@ -63,10 +63,10 @@ body {
 	bottom: 0;
 }
 
-nav li {
+nav ul {
+  display: flex;
   list-style: none;
-  float: left;
-  margin-left: 1px;
+  flex-direction: row-reverse;
 }
 nav li a {
   color: #0b86cb;
@@ -136,6 +136,20 @@ span.led{
 .multicolor{
   background: rgb(0,187,255);
   background: linear-gradient(90deg, rgba(0,187,255,1) 0%, rgba(0,255,57,1) 5%, rgba(8,97,72,1) 11%, rgba(8,7,150,1) 15%, rgba(7,49,147,1) 22%, rgba(255,254,3,1) 31%, rgba(232,122,223,1) 42%, rgba(215,144,231,1) 47%, rgba(180,233,149,1) 53%, rgba(0,91,255,1) 69%, rgba(0,212,255,1) 100%);
+}
+main #skills{
+  display:flex;
+
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  flex-direction: row;
+  
 }
 main article {
   background-color: teal;
