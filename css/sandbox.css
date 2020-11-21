@@ -23,6 +23,12 @@
   src: url(../fonts/The\ Led\ Display\ St.ttf);
 }
 
+body > header  h2{
+  font-family: Penguin;
+  color: white;
+  font-size: 10vw;
+  
+}
 
 body {
     font-family: Roboto;
