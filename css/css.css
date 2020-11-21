@@ -1,0 +1,59 @@
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+}
+
+/* .php{
+    background-color: blue;
+} */
+/* #perl #bt{
+    display: inline;
+    color:white;
+}
+#perl #bt:hover{
+    color:black;
+} */
+/* .shows_on_hover >*{
+    display: inline;
+    color:white;
+}
+.shows_on_hover:hover >*{
+    color: black;
+} */
+
+.technology:hover{
+    color:green;
+    /* display: block; */
+}
+.technology:hover .workplace{
+    /* color:green; */
+    display: block;
+    padding-left:40px;
+}
+
+
+.workplace{
+    display:none;
+    color:black;
+}
+
+.child{ display:none; }
+.parent:hover .child{ display:block; }
+
+/* #perl #bt:hover{ */
+    /* background-color: yellow; */
+    /* display: none; */
+/* } */
+
+
+
+/* #perl div{ */
+    /* display: none; */
+/* } */
+/* #perl::after{ */
+    /* content : "British Telecom"; */
+/* } */
+/* #php:first-child{ */
+    /* display: block; */
+/* } */
