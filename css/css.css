@@ -38,8 +38,22 @@ ul {
     color:black;
 }
 
-.child{ display:none; }
-.parent:hover .child{ display:block; }
+
+.detail {
+    display:none;
+}
+
+.workplace:hover{
+    color:red;
+}
+.workplace:hover .detail{
+    display: block;
+    color:black;
+    padding-left:40px;
+}
+
+/* .workplace{ display:none; } */
+/* .parent:hover .workplace{ display:block; } */
 
 /* #perl #bt:hover{ */
     /* background-color: yellow; */
@@ -54,6 +68,6 @@ ul {
 /* #perl::after{ */
     /* content : "British Telecom"; */
 /* } */
-/* #php:first-child{ */
+/* #php:first-workplace{ */
     /* display: block; */
 /* } */
