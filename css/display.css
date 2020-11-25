@@ -43,7 +43,7 @@ ul {
     display:none;
 }
 .workplace:last-child {
-margin-bottom: 150px;
+/* margin-bottom: 150px; */
 }
 
 .workplace:hover{
