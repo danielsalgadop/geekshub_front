@@ -1,4 +1,5 @@
 :root {
+  --white: white;
   --red: red;
   --blue: blue;
   --purple: purple;
@@ -6,6 +7,8 @@
   --springgreen: springgreen;
   --darkorange: darkorange;
   --yellow: yellow;
+  --clean-grey:#282E34;
+  --dark-grey:#13161a;
 }
 @font-face {
     font-family: Sigmar;
@@ -105,10 +108,10 @@ span.led {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.65;
 }
-.bgimg-2,
-.bgimg-3{
-    opacity: 0.65;
+.caption{
+  opacity: 1;
 }
 .bigger{
     font-size: 200%;
@@ -123,7 +126,7 @@ span.led {
 }
 
 .bgimg-2 {
-  background-image: url("../img/img_parallax2.jpg");
+  background-image: url("../img/code.png");
   min-height: 400px;
 }
 
@@ -155,6 +158,48 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
+
+.tecnologias{
+  display:flex;
+  justify-content: space-evenly;
+}
+/* .detalle_backend,
+.detalle_frontend
+{
+  display:none;
+} */
+.detalle{
+  display: none;
+}
+.tecnologia{
+  /* border-style: solid; */
+  border:1px solid var(--white);
+  padding:10px;
+}
+
+.tecnologia:hover{
+  border-color:var(--clean-grey);
+}
+
+.tecnologia:hover .detalle{
+  position: absolute;
+  bottom:129px;
+  margin-left:-10px;
+  display:block;
+  padding: 10px;
+  background-color: white;
+  color:var(--clean-grey);
+}
+
+/* .backend:hover .detalle_backend,
+.frontend:hover .detalle_frontend
+{
+ 
+} */
+
+
+
+
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
