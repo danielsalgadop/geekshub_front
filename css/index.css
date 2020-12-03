@@ -131,7 +131,7 @@ span.led {
 }
 
 .bgimg-3 {
-  background-image: url("../img/img_parallax3.jpg");
+  background-image: url("../img/office-desk.jpg");
   min-height: 400px;
 }
 
@@ -187,7 +187,7 @@ h3 {
   margin-left:-10px;
   display:block;
   padding: 10px;
-  background-color: white;
+  background-color: var(--white);
   color:var(--clean-grey);
 }
 
@@ -198,7 +198,10 @@ h3 {
 } */
 
 
-
+#works img{
+  display:grid;
+  width: 12%;
+}
 
 
 /* Turn off parallax scrolling for tablets and phones */
