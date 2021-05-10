@@ -95,6 +95,13 @@ span.led {
     background-position: 500%;
   }
 }
+#presentation {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+}
+
 .bgimg-1,
 .bgimg-2,
 .bgimg-3 {
@@ -105,6 +112,13 @@ span.led {
   background-size: cover;
   opacity: 0.65;
 }
+
+.bgimg-3 {
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
 .caption {
   opacity: 1;
 }
@@ -156,6 +170,11 @@ h3 {
 .tecnologias {
   display: flex;
   justify-content: space-evenly;
+  color: #ddd;
+  background-color: #282e34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
 }
 /* .detalle_backend,
 .detalle_frontend
@@ -189,13 +208,17 @@ h3 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 10px;
-  padding-left:15%;
-  /* align-self: center; */
-  /* grid-auto-rows: 100px; */
+  padding-left: 15%;
 }
 #works img {
-  width: 50%;
-
+  width: 80px;
+}
+#works_container {
+  color: #ddd;
+  background-color: #282e34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
