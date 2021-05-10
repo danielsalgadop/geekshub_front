@@ -2,7 +2,7 @@
 
 Web hecha para curso de [Geekshub Academy - Frontend React 2020-11](https://bootcamp.geekshubsacademy.com/online/frontend-react/)
 
-## Description
+## Descripción
 
 Solo he usado css+html puro, sin js
 
