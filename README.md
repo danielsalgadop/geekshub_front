@@ -9,10 +9,10 @@ Solo he usado css+html puro, sin js
 
 ## Estructura
 
-docs/ documentación sobre proyecto y curriculum actualizado hasta octubre 2020
-fonts/
-img/
-sandbox/ ejemplos chulos de html+css puro que he ido recopilando
+- docs/ documentación sobre proyecto y curriculum actualizado hasta octubre 2020
+- fonts/
+- img/
+- sandbox/ ejemplos chulos de html+css puro que he ido recopilando
 
 
 ## Instalación
